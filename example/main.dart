@@ -4,7 +4,7 @@ import 'package:aqueduct/aqueduct.dart';
 import 'package:faker/faker.dart';
 import 'package:flood/flood.dart';
 
-import '../lib/db.dart';
+import 'lib/db.dart';
 
 Future main() async {
   final app = Application<DbChannel>()

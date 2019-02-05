@@ -1,6 +1,8 @@
 name: flood
-description: A data-generator for databases using Aqueduct
-version: 0.1.1
+description: Methods for seeding databases with data-generation agnostic
+  functions using the Aqueduct ORM.
+
+version: 0.1.2
 homepage: https://github.com/CurC/flood
 author: Curtis Chin Jen Sem <csochinjensem@gmail.com>
 
