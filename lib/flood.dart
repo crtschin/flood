@@ -9,5 +9,7 @@ library flood;
 
 export 'src/flood.dart';
 export 'src/generation_scheme.dart';
+export 'src/query_creator.dart';
+export 'src/dependancy_graph.dart';
 
 import 'src/test/model/model.dart';
