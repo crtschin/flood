@@ -1,6 +1,3 @@
-/// db
-///
-/// A Aqueduct web server.
 library db;
 
 export 'dart:async';

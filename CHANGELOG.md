@@ -1,3 +1,8 @@
+## 0.1.4
+
+- Cleaned up the example
+- Moved faker to the dev_dependencies
+
 ## 0.1.3
 
 - Fixed partial docs due to missing library exports.

@@ -27,7 +27,7 @@ class DependancyGraph<T> {
     nodes[to].prev.add(nodes[from]);
   }
 
-  /// Using kahns algorithms, find the topological sort of the graph
+  /// Using Kahns algorithms, find the topological sort of the graph
   Iterable<GraphNode<T>> findOrder() {
     List<GraphNode<T>> results = [];
     Set<GraphNode<T>> current = Set.from(roots());

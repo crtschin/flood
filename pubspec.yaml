@@ -1,8 +1,8 @@
 name: flood
-description: Methods for seeding databases with data-generation agnostic
+description: Library for seeding databases with data-generation agnostic
   functions using the Aqueduct ORM.
 
-version: 0.1.2
+version: 0.1.3
 homepage: https://github.com/CurC/flood
 author: Curtis Chin Jen Sem <csochinjensem@gmail.com>
 
@@ -11,9 +11,9 @@ environment:
 
 dependencies:
   aqueduct: ^3.1.0+1
-  faker: ^1.0.0
 
 dev_dependencies:
   pedantic: ^1.4.0
   test: ^1.0.0
   aqueduct_test: ^1.0.0
+  faker: ^1.0.0

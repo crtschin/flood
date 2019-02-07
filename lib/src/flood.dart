@@ -7,8 +7,9 @@ import 'package:flood/src/query_creator.dart';
 ///
 /// This will use the supplied [ManagedContext] to insert objects into the
 /// database using the [GenerationScheme]s. This will only generate objects
-/// which have a registered [GenerationScheme], as such may fail when a
-/// [GenerationScheme] has not been given for every table in the database.
+/// which have a registered [GenerationScheme]. Because of this, it may fail
+/// when a [GenerationScheme] has not been given for every table in the
+/// database.
 ///
 /// Existing data in the database is not used when generating new data.
 class Flood {
