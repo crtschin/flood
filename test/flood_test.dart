@@ -1,6 +1,4 @@
 import 'package:flood/flood.dart';
-import 'package:flood/src/dependancy_graph.dart';
-import 'package:flood/src/generation_scheme.dart';
 import 'package:flood/src/test/model/model.dart';
 
 import 'harness/app.dart';
