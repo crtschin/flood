@@ -1,5 +1,5 @@
 # Flood
-A data-generator for databases using Aqueduct.
+A library for automatic databases seeding using Aqueduct.
 
 ## Usage
 
